@@ -9,7 +9,6 @@ redirect_from:
 
 <section class="profile-hero">
   <p class="profile-kicker">Computer Engineering Undergraduate · HKUST</p>
-  <h1>Building LLM-powered systems that connect research ideas with real users.</h1>
   <p class="profile-lede">Hi! I'm Baichuan, a Computer Engineering undergraduate at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>. My current CGA is <strong>4.141/4.3</strong>, placing me in the <strong>top 1%</strong> of my cohort.</p>
   <div class="profile-highlights">
     <span>LLMs</span>
