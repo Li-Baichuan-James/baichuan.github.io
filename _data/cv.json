@@ -4,7 +4,7 @@
     "email": "blicb@connect.ust.hk",
     "phone": "",
     "website": "https://li-baichuan-james.github.io/",
-    "summary": "Computer Engineering undergraduate at HKUST working on LLM-powered systems, multimodal AI, and mobile applications.",
+    "summary": "Computer Engineering undergraduate at HKUST working on smartphone-based tour guidance systems, multimodal query routing, and mobile applications.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -22,8 +22,8 @@
   "work": [],
   "education": [
     {
-      "institution": "Hong Kong University of Science and Technology (HKUST)",
-      "area": "B.Eng. in Computer Engineering",
+      "institution": "Hong Kong University of Science and Technology (HKUST), Hong Kong",
+      "area": "BEng in Computer Engineering",
       "studyType": "",
       "startDate": "2024",
       "endDate": "2028 (Expected)",
@@ -68,24 +68,48 @@
       "releaseDate": "2026-01-01",
       "website": "https://arxiv.org/abs/2601.06781",
       "summary": "Research project on smartphone-based tour guidance systems using large language models."
+    }
+  ],
+  "research": [
+    {
+      "name": "AutoTour: Automatic Photo Tour Guide with Smartphones and LLMs",
+      "summary": "Research project on smartphone-based tour guidance systems using large language models. Preprint available at arXiv:2601.06781.",
+      "url": "https://arxiv.org/abs/2601.06781"
     },
     {
       "name": "MMRouter",
-      "publisher": "Research project",
-      "releaseDate": "2026-03-04",
-      "website": "",
-      "summary": "Research project on routing multimodal queries to improve cost-performance trade-offs in model selection."
+      "summary": "Research project on routing multimodal queries to improve cost-performance trade-offs in model selection.",
+      "url": ""
+    }
+  ],
+  "awards": [
+    {
+      "title": "SENG Dean's List, HKUST",
+      "date": "Fall 2024; Spring 2025; Fall 2025",
+      "awarder": "HKUST",
+      "summary": ""
+    },
+    {
+      "title": "University's Scholarship Scheme for Continuing Undergraduate Students",
+      "date": "",
+      "awarder": "HKUST",
+      "summary": "HKD 40,000"
     }
   ],
   "presentations": [],
   "teaching": [
     {
       "course": "COMP1023",
-      "institution": "HKUST, Department of Computer Science and Engineering",
-      "date": "2024-09-01",
-      "role": "Undergraduate Teaching Assistant (UGTA)",
-      "description": "Supported tutorials, office hours, grading, and student questions."
+      "institution": "HKUST",
+      "date": "",
+      "role": "Undergraduate Teaching Assistant",
+      "description": ""
     }
+  ],
+  "service": [
+    "Co-founder and Coding Team Lead, HKUST-UGAIL",
+    "Engineering Student Ambassador, HKUST",
+    "Undergraduate Teaching Assistant, COMP1023, HKUST"
   ],
   "portfolio": [
     {
@@ -93,7 +117,7 @@
       "category": "portfolio",
       "date": "",
       "url": "",
-      "description": "Flutter app for critical SMS detection and real-time alerting, deployed on major Android app galleries in China with 500+ active users in the first month and initial revenue."
+      "description": "Flutter application for critical SMS detection and real-time alerting, with emphasis on dependable mobile deployment. Deployed on major Android app galleries in China; recorded over 500 active users in the first month and generated initial revenue."
     },
     {
       "name": "VocabuStory",
@@ -107,7 +131,7 @@
       "category": "portfolio",
       "date": "",
       "url": "",
-      "description": "Reusable summarize-slides and homework-solver agent skills for multi-agent study workflows, receiving 6,000+ likes/saves on Xiaohongshu and 80+ GitHub stars."
+      "description": "Designed and authored two reusable agent skills, summarize-slides and homework-solver, built around multi-agent collaboration for study support workflows. Shared publicly, receiving 6,000+ likes and saves on Xiaohongshu and 80+ GitHub stars."
     }
   ]
 }
