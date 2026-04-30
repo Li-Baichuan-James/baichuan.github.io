@@ -4,11 +4,11 @@
     "email": "blicb@connect.ust.hk",
     "phone": "",
     "website": "https://li-baichuan-james.github.io/",
-    "summary": "Year 2 Computer Engineering student at HKUST. Interested in Robotics, LLMs, and mobile development.",
+    "summary": "Computer Engineering undergraduate at HKUST working on LLM-powered systems, multimodal AI, and mobile applications.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Nanjing, China",
+      "city": "Hong Kong",
       "region": ""
     },
     "profiles": [
@@ -29,28 +29,33 @@
       "endDate": "2028 (Expected)",
       "gpa": "4.141/4.3 (Top 1%)",
       "courses": [
-        "COMP1021: Introduction to Python (A+)",
-        "COMP2011: C++ Programming (A)",
-        "COMP2012: OOP and Data Structure (A)",
-        "COMP2211: Exploring AI with Python (A)"
+        "COMP1021 Introduction to Python (A+)",
+        "COMP2011 C++ Programming (A)",
+        "COMP2012 Object-Oriented Programming and Data Structures (A)",
+        "COMP2211 Exploring Artificial Intelligence with Python (A)"
       ]
     }
   ],
   "skills": [
     {
-      "name": "Programming Languages",
+      "name": "Programming",
       "level": "",
       "keywords": ["Python", "C++", "Dart", "JavaScript"]
     },
     {
-      "name": "ML & Data Tools",
+      "name": "Machine Learning",
       "level": "",
       "keywords": ["NumPy", "Pandas", "PyTorch", "Matplotlib"]
     },
     {
-      "name": "Frameworks & Platforms",
+      "name": "Development",
       "level": "",
-      "keywords": ["Flutter", "Linux", "Full-stack development"]
+      "keywords": ["Flutter", "Full-stack application development"]
+    },
+    {
+      "name": "Systems",
+      "level": "",
+      "keywords": ["Linux"]
     }
   ],
   "languages": [],
@@ -62,14 +67,14 @@
       "publisher": "arXiv preprint",
       "releaseDate": "2026-01-01",
       "website": "https://arxiv.org/abs/2601.06781",
-      "summary": "An automatic photo tour guide system leveraging smartphones and large language models."
+      "summary": "Research project on smartphone-based tour guidance systems using large language models."
     },
     {
-      "name": "MMRouter: A Routing Mechanism for Multi-Modal Input Queries",
-      "publisher": "",
-      "releaseDate": "",
+      "name": "MMRouter",
+      "publisher": "Research project",
+      "releaseDate": "2026-03-04",
       "website": "",
-      "summary": "A routing mechanism for multi-modal input queries that achieves optimal cost-performance tradeoff in model selection."
+      "summary": "Research project on routing multimodal queries to improve cost-performance trade-offs in model selection."
     }
   ],
   "presentations": [],
@@ -77,25 +82,32 @@
     {
       "course": "COMP1023",
       "institution": "HKUST, Department of Computer Science and Engineering",
-      "date": "2024-01-01",
+      "date": "2024-09-01",
       "role": "Undergraduate Teaching Assistant (UGTA)",
-      "description": ""
+      "description": "Supported tutorials, office hours, grading, and student questions."
     }
   ],
   "portfolio": [
     {
-      "name": "挪啦 (NuoLa)",
+      "name": "Nuola (挪啦)",
       "category": "portfolio",
       "date": "",
       "url": "",
-      "description": "A Flutter app for critical SMS detection and real-time alert triggering. Deployed on China's major Android app galleries and market-ready."
+      "description": "Flutter app for critical SMS detection and real-time alerting, deployed on major Android app galleries in China with 500+ active users in the first month and initial revenue."
     },
     {
       "name": "VocabuStory",
       "category": "portfolio",
       "date": "",
       "url": "",
-      "description": "An LLM-powered Flutter application that improves language learning efficiency through customized narrative generation."
+      "description": "LLM-powered Flutter application for language learning through customized narrative generation and interactive content design."
+    },
+    {
+      "name": "Agent Skills for Study Automation",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "Reusable summarize-slides and homework-solver agent skills for multi-agent study workflows, receiving 6,000+ likes/saves on Xiaohongshu and 80+ GitHub stars."
     }
   ]
 }

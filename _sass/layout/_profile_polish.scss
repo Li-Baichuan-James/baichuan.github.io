@@ -1,0 +1,95 @@
+/* ==========================================================================
+   Profile polish
+   ========================================================================== */
+
+.profile-hero {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 14px;
+  background: var(--global-bg-color);
+}
+
+.profile-kicker,
+.profile-card-label {
+  margin: 0 0 0.45rem;
+  color: var(--global-text-color-light);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.profile-hero h1 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  line-height: 1.16;
+}
+
+.profile-lede {
+  margin-bottom: 1rem;
+  font-size: 1.02rem;
+}
+
+.profile-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.profile-highlights span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.7rem;
+  padding: 0.18rem 0.65rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  background: var(--global-bg-color);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.profile-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.profile-card {
+  padding: 1rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 12px;
+  background: var(--global-bg-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+.profile-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+  font-size: 1.05rem;
+}
+
+.profile-card p:last-child {
+  margin-bottom: 0;
+}
+
+.profile-compact-list {
+  margin-top: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.profile-compact-list li {
+  margin-bottom: 0.35rem;
+}
+
+@media (max-width: 48em) {
+  .profile-hero {
+    padding: 1rem;
+    border-radius: 12px;
+  }
+
+  .profile-card-grid {
+    grid-template-columns: 1fr;
+  }
+}

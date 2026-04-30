@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "LI Baichuan"
 title_separator          : "-"
 name                     : &name "LI Baichuan"
-description              : &description "Year 2 Computer Engineering student at HKUST"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Computer Engineering undergraduate at HKUST working on LLM-powered systems, multimodal AI, and mobile applications"
 url                      : https://li-baichuan-james.github.io # The base hostname & protocol for your site
                                                            # For a user/organization site the repository must be named <username>.github.io
 baseurl                  : "" # user site has no subpath
@@ -26,8 +26,8 @@ author:
   avatar           : "portrait.jpg"
   name             : "LI Baichuan"
   pronouns         : # example: "she/her"  
-  bio              : "Year 2 Computer Engineering student at HKUST. Interested in Robotics, LLMs, and mobile development."
-  location         : "Nanjing, China"
+  bio              : "Computer Engineering undergraduate at HKUST working on LLM-powered systems, multimodal AI, and mobile applications."
+  location         : "Hong Kong"
   employer         : "HKUST"
   uri              : # URL
   email            : "blicb@connect.ust.hk" 

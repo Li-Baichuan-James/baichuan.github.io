@@ -10,56 +10,75 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
-* B.Eng. in Computer Engineering, Hong Kong University of Science and Technology (HKUST), 2028 (Expected)
-  * CGA: 4.141/4.3 (Top 1%)
+=========
+
+* **Hong Kong University of Science and Technology (HKUST)**, Hong Kong
+  B.Eng. in Computer Engineering, expected graduation 2028
+  * Cumulative Grade Average: 4.141/4.3 (Top 1%)
 
 Research Experience
-======
+===================
+
 * **AutoTour: Automatic Photo Tour Guide with Smartphones and LLMs**
-  * An automatic photo tour guide system leveraging smartphones and LLMs.
-  * [[arXiv]](https://arxiv.org/abs/2601.06781)
+  * Research project on smartphone-based tour guidance systems using large language models.
+  * Preprint available at [arXiv:2601.06781](https://arxiv.org/abs/2601.06781).
 
-* **MMRouter: A Routing Mechanism for Multi-Modal Input Queries**
-  * A routing mechanism for multi-modal input queries achieving optimal cost-performance tradeoff in model selection.
+* **MMRouter**
+  * Research project on routing multimodal queries to improve cost-performance trade-offs in model selection.
 
-Projects
-======
-* **挪啦 (NuoLa)** – A Flutter app for critical SMS detection and real-time alert triggering. Deployed on China's major Android app stores.
-* **VocabuStory** – An LLM-powered Flutter app that improves language learning efficiency through customized narrative generation.
+Selected Projects
+=================
 
-Awards & Achievements
-======
-* SENG Dean's List, HKUST (Fall 2024)
-* SENG Dean's List, HKUST (Spring 2025)
-* SENG Dean's List, HKUST (Fall 2025)
+* **Nuola (挪啦): Critical SMS Detection and Alert Mobile App**
+  * Flutter application for critical SMS detection and real-time alerting, with emphasis on dependable mobile deployment.
+  * Deployed on major Android app galleries in China; recorded over 500 active users in the first month and generated initial revenue.
 
-Skills
-======
-* Programming Languages: Python, C++, Dart, JavaScript
-* ML & Data Tools: NumPy, Pandas, PyTorch, Matplotlib
-* Frameworks & Platforms: Flutter, Linux, Full-stack development
+* **VocabuStory**
+  * LLM-powered Flutter application for language learning through customized narrative generation and interactive content design.
+
+* **Agent Skills for Study Automation**
+  * Designed and authored two reusable agent skills, `summarize-slides` and `homework-solver`, built around multi-agent collaboration for study support workflows.
+  * Shared the work publicly, receiving 6,000+ likes and saves on Xiaohongshu and 80+ GitHub stars.
+
+Honors and Awards
+=================
+
+* SENG Dean's List, HKUST (Fall 2024; Spring 2025; Fall 2025)
+* University's Scholarship Scheme for Continuing Undergraduate Students (HKD 40,000)
+
+Technical Skills
+================
+
+* Programming: Python, C++, Dart, JavaScript
+* Machine Learning: NumPy, Pandas, PyTorch, Matplotlib
+* Development: Flutter, full-stack application development
+* Systems: Linux
 
 Relevant Coursework
-======
-* COMP1021: Introduction to Python (A+)
-* COMP2011: C++ Programming (A)
-* COMP2012: OOP and Data Structure (A)
-* COMP2211: Exploring AI with Python (A)
+===================
+
+* COMP1021 Introduction to Python (A+)
+* COMP2011 C++ Programming (A)
+* COMP2012 Object-Oriented Programming and Data Structures (A)
+* COMP2211 Exploring Artificial Intelligence with Python (A)
 
 Publications
-======
+============
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
 Teaching
-======
+========
+
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Service & Leadership
-======
+Service
+========
+
+* Co-founder and Coding Team Lead, HKUST-UGAIL
 * Engineering Student Ambassador, HKUST
-* Undergraduate Teaching Assistant (UGTA), COMP1023, HKUST
+* Undergraduate Teaching Assistant, COMP1023, HKUST
