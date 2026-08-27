@@ -2,6 +2,10 @@
 _site/
 .sass-cache/
 
+# Ignore local browser validation output
+.playwright-cli/
+/output/playwright/
+
 # Ignore the directory for local files during development
 local/
 .worktrees/
